@@ -1,0 +1,37 @@
+// Pseudocode for calculating leaderboard after every problem
+
+// Inputs:
+// n - total problems so far
+// l - correct answer for the nth problem
+// For each player/team:
+//   pId - player ID
+//   cN - number of correct problems so far
+//   pS - sum of all the max/min ratios till (n-1)th problem
+//   cMin - current minimum given for the nth problem
+//   cMax - current maximum given for the nth problem
+
+// Iterate through each player/team to update their score after the nth problem
+for each player in players {
+    
+  // Check if the current answer is within the provided interval
+  if (cMin <= l <= cMax) {
+      // Increment the number of correct problems
+      cN += 1
+      
+      // Add the ratio of max/min for the nth problem to the sum
+      pS += (cMax / cMin)
+  }
+
+  // Calculate the current score using the formula:
+  // Score = (10 + pS) * 2^(n - cN)
+  currentScore = (10 + pS) * 2^(n - cN)
+
+  // Update the player's score
+  player.score = currentScore
+}
+
+// Sort the leaderboard by score in ascending order (lowest score wins)
+sort players by player.score in ascending order
+
+// Display the updated leaderboard with player IDs and their scores
+display leaderboard with player IDs and scores
