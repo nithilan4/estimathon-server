@@ -22,61 +22,61 @@ let questionSet = [
     {
         id: 4,
         q: "How many digits are there in 2024!?",
-        a: 283
+        a: 5815
     },
     {
         id: 5,
         q: "Operating Systems (CS 537) is one of the most difficult CS courses at UW-Madison, how many students have gotten an A in it according to MadGrades (data collected since Fall 2006)?",
-        a: 5815
+        a: 2613
     },
     {
         id: 6,
         q: "How many moons are there in the entire solar system?",
-        a: 2613
+        a: 293
     },
     {
         id: 7,
         q: "How many (in million) followers does Elon Musk have on X?",
-        a: 293
+        a: 203
     },
     {
         id: 8,
         q: "What is Giannis Antetokounmpo’s career NBA points scored?",
-        a: 203
+        a: 18688
     },
     {
         id: 9,
         q: "How many people have walked on the moon?",
-        a: 18688
+        a: 12
     },
     {
         id: 10,
         q: "How many acres is the UW Madison Campus?",
-        a: 12
+        a: 939
     },
     {
         id: 11,
         q: "How many pieces of art are displayed in the Louvre?",
-        a: 939
+        a: 35000
     },
     {
         id: 12,
         q: "How many times larger (in volume) is lake Michigan than lake Mendota?",
-        a: 35000
+        a: 10225
     },
     {
         id: 13,
         q: "What is the most amount of days Lake Mendota was frozen for in an annual year?",
-        a: 10225
+        a: 161
     },
     {
         id: 14,
         q: "How many times taller is the Wisconsin State Capitol building than the average height of a Badger?",
-        a: 161
+        a: 284
     },
     {
         id: 15,
         q: "How many people are playing League of Legends at the current moment?",
-        a: 284
+        a: 2488104
     }
 ];
